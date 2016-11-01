@@ -3,6 +3,7 @@ package org.mamasdelrio.android;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.AppCompatButton;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
@@ -32,7 +33,7 @@ public class DoRiskActivity extends AppCompatActivity implements IFormActivity {
   @Bind(R.id.risk_dniorname) DniOrNameView dniOrName;
   @Bind(R.id.risk_community) SelectCommunityView community;
   @Bind(R.id.risk_risk) SelectOneView risk;
-  @Bind(R.id.risk_send) LinearLayout send;
+  @Bind(R.id.risk_send) AppCompatButton send;
   @Bind(R.id.risk_location) LocationView location;
 
   @Override

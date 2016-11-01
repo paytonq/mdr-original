@@ -47,6 +47,8 @@ public class DoAlarmActivity extends AppCompatActivity implements
 
     alarm.initializeView(R.array.alarms_labels, R.array.alarms_values);
     send.setEnabled(isReadyToBeSent());
+    alarmLabel.setEnabled(true);
+    alarmLabel.setFocusable(false);
   }
 
   @Override

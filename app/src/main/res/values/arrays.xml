@@ -62,24 +62,24 @@
   </string-array>
 
   <string-array name="risks_values">
-    <item>1</item>
-    <item>2</item>
-    <item>3</item>
-    <item>4</item>
-    <item>5</item>
-    <item>6</item>
-    <item>7</item>
-    <item>8</item>
-    <item>9</item>
-    <item>10</item>
-    <item>11</item>
-    <item>12</item>
-    <item>13</item>
-    <item>14</item>
-    <item>15</item>
-    <item>16</item>
-    <item>17</item>
-    <item>18</item>
+    <item>Embarazo antes de los 18 años</item>
+    <item>Embarazo despues de los 35 años</item>
+    <item>Presión alta en anteriores embarazos</item>
+    <item>Cesarea anterior</item>
+    <item>Primer embarazo</item>
+    <item>Violencia doméstica</item>
+    <item>Abandono Social</item>
+    <item>Infección por VIH</item>
+    <item>Dengue</item>
+    <item>Chikunguña</item>
+    <item>Zika</item>
+    <item>Leptospirosis</item>
+    <item>Malaria</item>
+    <item>Exposición a petroleo</item>
+    <item>Exposición a pesticidas</item>
+    <item>Anemia</item>
+    <item>Diabetes</item>
+    <item>Problemas de salud mental</item>
   </string-array>
 
   <string-array name="community_labels">

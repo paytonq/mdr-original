@@ -49,12 +49,13 @@ public class DeathView extends LinearLayout {
     map.put(dateKey, datePickerHelper.getFriendlyString(deathDate));
   }
 
-  public SelectOneView getProbableCause() {
+  public SelectOneView getProbableCause()
+  {
     return probableCause;
   }
 
   private void init() {
-    LayoutInflater.from(getContext()).inflate(R.layout.widget_complications, this,
+    LayoutInflater.from(getContext()).inflate(R.layout.widget_death, this,
         true);
     ButterKnife.bind(this);
   }
